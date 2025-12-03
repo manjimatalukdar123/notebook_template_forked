@@ -11,3 +11,8 @@ Alternatively, you can run on your local computer.  To do so, once you have inst
 Be sure to remove any suffix that is not *.ipynb* on the notebook file you download.  For example, some browsers will by default add a *.txt* to the downloaded file so that it has suffix *.ipynb.txt*.  Remove the *.txt* before running.
 
 ## Additional Notebooks
+This notebook computes emissivity as a function of frequency using Kirchhoff’s Law, with a user-defined absorption coefficient (e.g., a Gaussian profile). The total emissivity is calculated by:
+j = ∫₀^∞ j_ν dν
+where: j_ν = α_ν · B_ν(T)
+Here, B_ν(T) is the Planck function, and α_ν is the absorption coefficient.
+You can run the notebook on Google Colaboratory by clicking the badge below:
