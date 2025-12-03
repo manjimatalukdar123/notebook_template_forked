@@ -15,7 +15,7 @@ This notebook computes emissivity as a function of frequency using Kirchhoff’s
 
 The total emissivity is calculated by:
 
-`j = ∫₀^∞ j_ν dν` where `j_ν = α_ν · B_ν(T)`
+j = $\int_{0}^{∞} j_ν \,dν$
 
 Here, `B_ν(T)` is the Planck function, and `α_ν` is the absorption coefficient.
 
