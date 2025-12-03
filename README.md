@@ -15,11 +15,12 @@ This notebook computes emissivity as a function of frequency using Kirchhoff’s
 
 The total emissivity is calculated by:
 
-`j = ∫₀^∞ j_ν dν` where `j_ν = α_ν · B_ν(T)`
+![equation](https://latex.codecogs.com/png.image?\dpi{120}j=\int_{0}^{\infty}j_{\nu}d\nu\quad\text{where}\quad j_{\nu}=\alpha_{\nu}B_{\nu}(T))
 
-Here, `B_ν(T)` is the Planck function, and `α_ν` is the absorption coefficient.
+Here, \( B_{\nu}(T) \) is the Planck function, and \( \alpha_{\nu} \) is the absorption coefficient.
 
 You can run the notebook on Google Colaboratory by clicking the badge below:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manjimatalukdar123/notebook_template_forked/blob/main/emissivity_project_updated.ipynb)
+
 
